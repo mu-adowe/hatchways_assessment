@@ -1,0 +1,23 @@
+{
+  "name": "testcases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solutions.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "expect": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
