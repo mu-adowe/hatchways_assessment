@@ -99,4 +99,4 @@ router.route("/:tags/:sortBy?/:direction?").get(async (req, res) => {
   }
 });
 
-module.exports = router, getTag;
+module.exports = router;

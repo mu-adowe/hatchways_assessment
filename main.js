@@ -13,8 +13,6 @@ app.get("/api/ping", (_, res) => {
   res.status(200).send({ success: true });
 });
 
-const server = app.listen(port, () => {
+app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
-
-module.exports = server, apiSolutions
